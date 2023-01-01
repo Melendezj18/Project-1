@@ -5,7 +5,7 @@
 
 Wireframe:
 
-![Wireframes](./assets/wireframe.png)
+![Wireframes](./assets/Wireframe.png)
 
 User Stories:
 
