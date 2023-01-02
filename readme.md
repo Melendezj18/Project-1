@@ -35,7 +35,7 @@ Version 3
 ## MVP Psuedocode
 
 
-
+```js
 startingBoard () {
     For Loop to create 8x8 grid
     starts at 0
@@ -90,3 +90,5 @@ gameOver() {
 Playagain() {
     If button pressed reset board
 }
+
+```
