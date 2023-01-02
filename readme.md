@@ -70,7 +70,7 @@ movePiece(){
 }
 
 checkTurn (){
-    Firstturn random
+    Firstturn math.random
         If previous turn was your turn 
             return false    
 }
