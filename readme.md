@@ -67,12 +67,16 @@ isValidMove(){
 movePiece(){
     IF isValidMove = true
         allow move
+    
 }
 
 checkTurn (){
     Firstturn math.random
         If previous turn was your turn 
             return false    
+        When player movePiece 
+            chnage turns
+
 }
 
 takePiece () {
