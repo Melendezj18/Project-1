@@ -88,7 +88,7 @@ gameOver() {
 }
 
 Playagain() {
-    If button pressed reset board
+    Event Listener "play again" button pressed reset board to starting board
 }
 
 ```
