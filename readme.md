@@ -85,6 +85,11 @@ gameOver() {
         return Game Over
     IF no pieces left for black or red
         return Game Over
+    check winner
+         if player with no moves/pieces left is red 
+            return Black Wins
+         if player with no move/pieces left is black
+            return Red Wins
 }
 
 Playagain() {
