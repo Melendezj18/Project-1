@@ -21,6 +21,7 @@ Instructions:
 
 - Click on the play game button on the landing page
 - Once over on the game screen bring a friend or play on your own
+- Black goes first
 - Click on a square to move a piece to another open space
 - You can only move diagonally 
 - Take opposing pieces by jumping over them
