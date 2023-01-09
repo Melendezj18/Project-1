@@ -12,7 +12,7 @@ playButton.addEventListener("click", function() {
     // Hide the .landing element
     landing.style.display = "none";
     // Show the .Game-Board element
-    game.style.display = "block";
+    game.style.display = "flex";
     renderBoard()
 });
 

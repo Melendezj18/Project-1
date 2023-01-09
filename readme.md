@@ -1,6 +1,6 @@
 # Checkers
 
-Checker is a game where two player try to compete for who can take the most pieces on the board or stop the opponent from moving
+Checker is a game where two player try to compete for who can take the most pieces on the board 
 
 ![Screenshots](./assets/Screenshot1.png)
 ![Screenshots](./assets/Screenshot2.png)
