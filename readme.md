@@ -26,6 +26,7 @@ Instructions:
 - You can only move diagonally 
 - Take opposing pieces by jumping over them
 - Play till the opposing side has no pieces or cant move anymore
+- press Play again to reset at any time
 
 ## Next Steps
 
