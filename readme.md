@@ -15,7 +15,7 @@ The following technology was used in order to create Dragon Slayer:
 
 ## Getting Started
 
-To play this game live you can click this [link]()
+To play this game live you can click this [link](https://melendezj18.github.io/Project-1/)
 
 Instructions:
 
