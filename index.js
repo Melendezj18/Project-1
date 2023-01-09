@@ -18,15 +18,6 @@ playButton.addEventListener("click", function() {
 
 playAgainButton.addEventListener("click", handlePlayAgainClick);
 
-function handlePlayAgainClick() {
-    // Clear the winner message
-    document.querySelector(".winner-message").innerHTML = "";
-    // Render the board
-    renderBoard();
-    // Add click listeners to the squares
-    addClickListenersToSquares();
-}
-
 // Create the board
 function createBoard() {
     for (let r = 0; r < rows; r++) {
@@ -112,10 +103,10 @@ function movePiece(piece, square) {
             takePiece(capturedPieceRow, capturedPieceCol);
         }
         square.appendChild(selectedPiece);
-            // End turn
+            // Ends turn if validMove is made
             endTurn(true);
         } else {
-            // End turn
+            // dont End turn 
             endTurn(false);
     }
 }
@@ -147,9 +138,9 @@ function isValidMove(fromRow, fromCol, toRow, toCol) {
         const capturedPieceRow = (fromRow + toRow) / 2;
         const capturedPieceCol = (fromCol + toCol) / 2;
         const capturedPiece = document.getElementById(`${capturedPieceRow},${capturedPieceCol}`).firstChild;
-        if (!capturedPiece || capturedPiece.className.split(" ")[1] === selectedPiece.className.split(" ")[1]) {
-            return false;
-        }
+            if (!capturedPiece || capturedPiece.className.split(" ")[1] === selectedPiece.className.split(" ")[1]) {
+                return false;
+            }
     }
     // Check if the piece is trying to move backwards
     if (selectedPiece.className.split(" ")[1] === "black" && toRow < fromRow) {
@@ -248,6 +239,15 @@ function renderBoard() {
     createBoard();
     // Add pieces to the board
     addPiecesToBoard();
+    // Add click listeners to the squares
+    addClickListenersToSquares();
+}
+
+function handlePlayAgainClick() {
+    // Clear the winner message
+    document.querySelector(".winner-message").innerHTML = "";
+    // Render the board
+    renderBoard();
     // Add click listeners to the squares
     addClickListenersToSquares();
 }
