@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background: #689bcf;
+}
+.Landing {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.winner-message {
+    font-size: 24px;
+}
+
+.hide {
+    display: none;
+}
+
+.Game {
+    display: none;
+    margin: 0 auto;
+}
+
+.Game-Board {
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+  
+.row {
+    display: flex;
+}
+
+.col {
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.light {
+    background-color: lightgrey;
+}
+
+.dark {
+    background-color: darkgrey;
+}
+
+.piece {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.selected {
+    outline: 2px solid #0080ff;
+}
+  
+#play-again {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
