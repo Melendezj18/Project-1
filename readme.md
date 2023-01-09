@@ -21,8 +21,9 @@ Instructions:
 
 - Click on the play game button on the landing page
 - Once over on the game screen bring a friend or play on your own
-- Click on piece to move it to an open space
-- Take opposing pieces by jumpin over them
+- Click on a square to move a piece to another open space
+- You can only move diagonally 
+- Take opposing pieces by jumping over them
 - Play till the opposing side has no pieces or cant move anymore
 
 ## Next Steps
