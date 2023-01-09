@@ -34,6 +34,7 @@ Version 2
 - As a user, I want to be able to change piece appearance
 - As a user, I want to change board appearance
 - As a user, I want a timer for turns
+- As a user, I want an option to add the king rule
 
 Version 3
 - As a user, I want hints
