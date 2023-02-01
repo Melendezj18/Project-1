@@ -1,3 +1,4 @@
+// change over to double quotes since rest of file is using double quotes
 const landing = document.querySelector('.Landing')
 const playButton = document.getElementById("play-game");
 const gameBoard = document.querySelector(".Game-Board");
@@ -87,7 +88,7 @@ function selectPiece(piece) {
     }
 }
 
-
+// remove unused `piece` param here
 function movePiece(piece, square) {
     const fromRow = parseInt(selectedPiece.parentNode.id.split(",")[0]);
     const fromCol = parseInt(selectedPiece.parentNode.id.split(",")[1]);
